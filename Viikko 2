@@ -1,0 +1,8 @@
+# Viikkop 2 Yhteen tauluun kohdistuvien kyselyiden harjoitukset
+
+Kysymys 1
+SELECT *
+FROM goal;
+
+Kysymys 2
+
