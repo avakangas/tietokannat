@@ -5,4 +5,41 @@ SELECT *
 FROM goal;
 
 Kysymys 2
+select name airport_type
+from airport where iso_country = "FI";
 
+Kysymys 3
+select name
+from airport
+where iso_country = 'FI'
+order by name;
+
+Kysymys 4
+elect name
+type from airport
+where iso_country = "FI"
+order by type, name;
+
+Kysymys 5
+select name
+from country
+where name like "F%";
+
+Kysymys 6
+select name
+from country
+where name like '%F%';
+
+Kysymys 7
+select location
+from game
+where screen_name = 'Vesa';
+
+Kysymys 8
+select co2_consumed
+from game
+where screen_name = 'Ilkka';
+
+Kysymys 9
+select distinct co2_budget
+from game;
